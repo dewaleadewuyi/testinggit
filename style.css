@@ -1,1 +1,49 @@
+body{
+    background-color: rgb(124, 124, 238);
+    align-content: center;
+}
+.whole{
+    max-width: fit-content;
+    margin: auto;
+}
+.small img {
+    border-radius: 50%;
+}
+.image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 350px;
+}
+.text {
+    background-color: rgb(238, 238, 238);
+    width: 350px;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.small {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding: 10px;
+   background-color: rgb(205, 228, 248);
+   width: 240px;
+   height: 50px;
+   margin-left: 45px;
+   border-radius: 10px ;
+   padding-top: 1px;
+}
+ .smal .div-item2 p {
+     padding-top: 5px;
+     margin-left: 5px;
+ }
 
+ .small .div-item1  {
+     padding-top: 15px;
+     padding-right: -10px;
+ }
+
+ .linking a {
+     margin-top: 10px;
+ }
